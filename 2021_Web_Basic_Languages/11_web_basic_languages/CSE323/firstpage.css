@@ -1,0 +1,172 @@
+/* screen - firstpage */
+
+.firstpage {
+  align-items: center;
+  background-color: var(--viking);
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  width: 360px;
+}
+
+.firstpage .overlap-group3 {
+  height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 360px;
+}
+
+.firstpage .rectangle-20 {
+  background-color: #44b2f2;
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 360px;
+}
+
+.firstpage .signal_cellular_alt_ {
+  height: 23px;
+  left: 12px;
+  position: absolute;
+  top: 1px;
+  width: 27px;
+}
+
+.firstpage .battery_charging_ful {
+  height: 23px;
+  left: 324px;
+  position: absolute;
+  top: 0;
+  width: 29px;
+}
+
+.firstpage .percent {
+  -webkit-text-stroke: 0.1px var(--black);
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 10px;
+  font-weight: 400;
+  left: 298px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 5px;
+}
+
+.firstpage .x1017-pm {
+  -webkit-text-stroke: 0.1px var(--black);
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 11px;
+  font-weight: 400;
+  left: 153px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 5px;
+}
+
+.firstpage .overlap-group1 {
+  height: 293px;
+  margin-top: 7px;
+  position: relative;
+  width: 310px;
+}
+
+.firstpage .rectangle-16 {
+  height: 273px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 299px;
+}
+
+.firstpage .hip-dog {
+  -webkit-text-stroke: 1px var(--viking);
+  color: var(--turbo);
+  font-family: var(--font-family-baloo-regular);
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 120px;
+  left: 45px;
+  letter-spacing: 0;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 253px;
+}
+
+.firstpage .pets_black_24dp-1 {
+  height: 85px;
+  left: 211px;
+  position: absolute;
+  top: 70px;
+  width: 99px;
+}
+
+.firstpage .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid #00000040;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 57px;
+  margin-right: 10.0px;
+  margin-top: 16px;
+  min-width: 274px;
+  padding: 4px 75px;
+}
+
+.firstpage .place {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 35px;
+  width: 123px;
+}
+
+.firstpage .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 57px;
+  margin-right: 10.0px;
+  margin-top: 22px;
+  min-width: 274px;
+  padding: 5px 60px;
+}
+
+.firstpage .community {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 43px;
+}
+
+.firstpage .overlap-group4 {
+  border-radius: 10px;
+  height: 57px;
+  margin-right: 10.0px;
+  margin-top: 22px;
+  position: relative;
+  width: 274px;
+}
+
+.firstpage .rectangle-19 {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  height: 57px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 274px;
+}
+
+.firstpage .chat {
+  left: 105px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 14px;
+}

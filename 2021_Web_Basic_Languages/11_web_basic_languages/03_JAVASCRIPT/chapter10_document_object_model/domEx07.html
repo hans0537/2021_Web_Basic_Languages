@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<fieldset>
+		<p>
+			<label>브라우저입력: </label>
+			<input type="text" id="inputBrowser">
+			<input type="button" onclick="process1()" value="버튼">
+		</p>
+		
+		<p>
+			<label>브라우저: </label>
+			<input type="radio" name="browsers" value="chrome" checked> chrome
+			<input type="radio" name="browsers" value="fireFox"> fireFox
+			<input type="radio" name="browsers" value="exploreEdge"> exploreEdge
+		</p>
+	
+	</fieldset>
+	
+	<script>
+		
+		function process1() {
+			
+			var inputBrowser = document.getElementById("inputBrowser").value;
+			var webBrowsers = document.getElementsByName("browsers");
+			var isExist = false;
+			
+			for (var i = 0; i < webBrowsers.length; i++) {
+				if (webBrowsers[i].value==inputBrowser) {
+					isExist=true;
+				}
+			}
+			
+			if (isExist) {
+				for (var i = 0; i < webBrowsers.length; i++) {
+					if (webBrowsers[i].value==inputBrowser) {
+						webBrowsers[i].checked=true;
+					}
+				}
+			}else{
+				alert("해당 값은 없습니다.");
+			}
+		}
+	
+	</script>
+</body>
+</html>

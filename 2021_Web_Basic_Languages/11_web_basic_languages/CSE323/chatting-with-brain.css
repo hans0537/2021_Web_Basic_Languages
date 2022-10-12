@@ -1,0 +1,443 @@
+/* screen - chatting-with-brain */
+
+.chatting-with-brain {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.chatting-with-brain .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 282px;
+  width: 360px;
+}
+
+.chatting-with-brain .overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--viking);
+  display: flex;
+  height: 62px;
+  min-width: 360px;
+  padding: 9px 0;
+}
+
+.chatting-with-brain .arrow_back_black_24dp-1 {
+  align-self: center;
+  height: 24px;
+  width: 46px;
+}
+
+.chatting-with-brain .hip-dog {
+  -webkit-text-stroke: 1px var(--viking);
+  letter-spacing: 0;
+  margin-left: 90px;
+  margin-top: 9px;
+  min-height: 40px;
+  text-shadow: 0px 4px 4px #00000040;
+  width: 86px;
+}
+
+.chatting-with-brain .flex-row {
+  align-items: center;
+  display: flex;
+  margin-right: 11px;
+  margin-top: 19px;
+  min-width: 212px;
+}
+
+.chatting-with-brain .overlap-group9 {
+  height: 28px;
+  margin-bottom: 3.0px;
+  position: relative;
+  width: 157px;
+}
+
+.chatting-with-brain .rectangle-64 {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 154px;
+}
+
+.chatting-with-brain .hi-how-are-you {
+  left: 18px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 7px;
+  width: 139px;
+}
+
+.chatting-with-brain .ellipse-24 {
+  height: 47px;
+  margin-left: 8px;
+  object-fit: cover;
+  width: 47px;
+}
+
+.chatting-with-brain .flex-row-1 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 12px;
+  margin-top: 19px;
+  min-width: 171px;
+}
+
+.chatting-with-brain .ellipse-2 {
+  cursor: pointer;
+  height: 47px;
+  object-fit: cover;
+  width: 47px;
+}
+
+.chatting-with-brain .overlap-group11 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-61@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  margin-bottom: 3.0px;
+  margin-left: 11px;
+  min-width: 113px;
+  padding: 1px 3px;
+}
+
+.chatting-with-brain .never-better {
+  letter-spacing: 0;
+  min-height: 21px;
+  width: 97px;
+}
+
+.chatting-with-brain .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 65px;
+  margin-right: 11px;
+  margin-top: 23px;
+  min-width: 290px;
+}
+
+.chatting-with-brain .overlap-group6 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-image: url(../img/rectangle-62@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 57px;
+  justify-content: flex-end;
+  min-width: 232px;
+  padding: 11px 6px;
+}
+
+.chatting-with-brain .do-you-usually-go-fo {
+  letter-spacing: 0;
+  min-height: 25px;
+  width: 202px;
+}
+
+.chatting-with-brain .ellipse-22 {
+  height: 47px;
+  margin-left: 11px;
+  object-fit: cover;
+  width: 47px;
+}
+
+.chatting-with-brain .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 75px;
+  margin-left: 8px;
+  margin-top: 38px;
+  min-width: 290px;
+}
+
+.chatting-with-brain .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+  min-height: 67px;
+  width: 232px;
+}
+
+.chatting-with-brain .overlap-group10 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-65@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  min-width: 57px;
+  padding: 5px 12px;
+}
+
+.chatting-with-brain .hey {
+  letter-spacing: 0;
+  min-height: 25px;
+  width: 30px;
+}
+
+.chatting-with-brain .overlap-group8 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-66@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  margin-top: 11px;
+  min-width: 232px;
+  padding: 6px 7px;
+}
+
+.chatting-with-brain .thats-none-of-your-business {
+  letter-spacing: 0;
+  min-height: 25px;
+  width: 210px;
+}
+
+.chatting-with-brain .overlap-group-container-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 165px;
+  min-height: 85px;
+  width: 360px;
+}
+
+.chatting-with-brain .overlap-group7 {
+  align-items: center;
+  background-color: var(--mist-gray);
+  border-radius: 10px;
+  display: flex;
+  height: 35px;
+  margin-right: 7.0px;
+  min-width: 337px;
+  padding: 4px 7px;
+}
+
+.chatting-with-brain .rectangle-60 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 23px;
+  width: 280px;
+}
+
+.chatting-with-brain .overlap-group13 {
+  align-items: flex-end;
+  align-self: flex-end;
+  background-image: url(../img/ellipse-21-7@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 26px;
+  margin-left: 11px;
+  min-width: 26px;
+  padding: 0 1px;
+}
+
+.chatting-with-brain .arrow_upward_black_24dp-1 {
+  height: 24px;
+  width: 24px;
+}
+
+.chatting-with-brain .component-container {
+  height: 44px;
+  margin-top: 6px;
+  position: relative;
+  width: 360px;
+}
+
+.chatting-with-brain .component-5 {
+  align-items: flex-start;
+  background-color: var(--viking);
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 360px;
+  position: absolute;
+  top: 0;
+}
+
+.chatting-with-brain .overlap-group {
+  height: 41px;
+  margin-left: -1px;
+  margin-top: -1px;
+  position: relative;
+  width: 146px;
+}
+
+.chatting-with-brain .rectangle-37 {
+  background-color: var(--viking);
+  height: 41px;
+  left: 69px;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.chatting-with-brain .rectangle-36 {
+  background-color: var(--viking);
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}
+
+.chatting-with-brain .component-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 44px;
+  left: 20px;
+  min-width: 323px;
+  position: absolute;
+  top: 0;
+}
+
+.chatting-with-brain .overlap-group3 {
+  align-self: flex-end;
+  height: 39px;
+  margin-bottom: 1px;
+  position: relative;
+  width: 33px;
+}
+
+.chatting-with-brain .icon-home {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.chatting-with-brain .place {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 22px;
+}
+
+.chatting-with-brain .overlap-group4 {
+  height: 41px;
+  margin-left: 22px;
+  position: relative;
+  width: 64px;
+}
+
+.chatting-with-brain .groups_black_24dp-1 {
+  height: 32px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 36px;
+}
+
+.chatting-with-brain .community {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 25px;
+}
+
+.chatting-with-brain .overlap-group1 {
+  height: 44px;
+  margin-left: 4px;
+  margin-top: -1px;
+  position: relative;
+  width: 146px;
+}
+
+.chatting-with-brain .rectangle-38 {
+  background-color: var(--viking);
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.chatting-with-brain .x6366325_animal_breed {
+  height: 21px;
+  left: 3px;
+  position: absolute;
+  top: 5px;
+  width: 32px;
+}
+
+.chatting-with-brain .x6366340_animal_breed {
+  height: 28px;
+  left: 37px;
+  position: absolute;
+  top: 5px;
+  width: 33px;
+}
+
+.chatting-with-brain .rectangle-39 {
+  background-color: var(--viking);
+  height: 41px;
+  left: 72px;
+  position: absolute;
+  top: 0;
+  width: 74px;
+}
+
+.chatting-with-brain .question_answer_black_24dp-1 {
+  height: 24px;
+  left: 92px;
+  position: absolute;
+  top: 7px;
+  width: 34px;
+}
+
+.chatting-with-brain .chat {
+  left: 96px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 26px;
+}
+
+.chatting-with-brain .text-18 {
+  left: 31px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.chatting-with-brain .place-1 {
+  left: 12px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 27px;
+}
+
+.chatting-with-brain .overlap-group2 {
+  align-self: flex-end;
+  height: 39px;
+  margin-bottom: 1px;
+  margin-left: 17px;
+  position: relative;
+  width: 37px;
+}
+
+.chatting-with-brain .icon-user {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 37px;
+}
+
+.chatting-with-brain .profile {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 20px;
+}

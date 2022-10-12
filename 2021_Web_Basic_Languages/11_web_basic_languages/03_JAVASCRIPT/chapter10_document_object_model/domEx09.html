@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<p>
+		<label>과목 : </label>
+		<input type="checkbox" name="webLanguages" value="html"> html
+		<input type="checkbox" name="webLanguages" value="css"> css
+		<input type="checkbox" name="webLanguages" value="javascript"> javascript
+	</p>
+	<p>
+		<input type="button" value="버튼" onclick="process1()">
+	</p>
+	
+	<span id="result"></span>
+</body>
+
+	<script>
+		
+		function process1() {
+			
+			var webLanguages = document.getElementsByName("webLanguages");
+			
+			document.getElementById("result").innerHTML = "선택된 데이터 : ";
+			for (var i = 0; i < webLanguages.length; i++) {
+				if (webLanguages[i].checked) {
+					document.getElementById("result").innerHTML += webLanguages[i].value + " ";
+				}
+			}
+		}
+	
+	
+	</script>
+</html>

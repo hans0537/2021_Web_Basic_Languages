@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<p>
+		<input type="radio" name="search" value="base" checked onclick="changeSearchMethod(this)"> 기본 조회
+		<input type="radio" name="search" value="detail" onclick="changeSearchMethod(this)"> 상세 조회
+			
+	</p>
+	<div>
+		<p>
+			<select id="name" disabled>
+				<option value="사용자 이름">사용자 이름</option>
+				<option value="사용자 ID">사용자 ID</option>
+				<option value="제품명">제품명</option>
+			</select>
+			
+			<input type="text" id="keyword" disabled>
+			
+			
+			<input type="button" id="today" value="당일" disabled>
+			<input type="button" id="1week" value="1주" disabled>
+			<input type="button" id="1month" value="1달" disabled>
+		</p>
+	</div>
+	<hr>
+	
+	<p>
+		<input type="button" value="검색">
+	
+	</p>
+	
+	<script>
+	
+		function changeSearchMethod(keyword) {
+			if (keyword.value=="detail") {
+				document.getElementById("name").disabled = false;
+				document.getElementById("keyword").disabled = false;
+				document.getElementById("today").disabled = false;
+				document.getElementById("1week").disabled = false;
+				document.getElementById("1month").disabled = false;
+			}else{
+				document.getElementById("name").disabled = true;
+				document.getElementById("keyword").disabled = true;
+				document.getElementById("today").disabled = true;
+				document.getElementById("1week").disabled = true;
+				document.getElementById("1month").disabled = true;
+			}
+			
+		}
+	
+	</script>
+</body>
+</html>
